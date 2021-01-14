@@ -25,6 +25,8 @@
 2. Phase 2 takes about 50 minutes to run with the current restrictions (implements for D & E which are huge). About 1% score improvement.
 
 ## Scores
+Score: 731,455,475 
+
 * A – Example - 74 points (74 before optimization)
 * B – A little bit of everything - 13,533 points (12922 before optimization) 
 * C – Many ingredients 712,692,751 points (706,624,572 before optimization)
