@@ -22,7 +22,7 @@
 
 ### Notes
 1. Phase 1 takes about 5 seconds to run.
-2. Phase 2 takes about 50 minutes to run with the current restrictions (implements for D & E which are huge). About 1% score improvement.
+2. Phase 2 takes about 50 minutes to run with the current restrictions (implemented for D & E which are huge). About 1% score improvement.
 
 ## Scores
 Score: 731,455,475 
