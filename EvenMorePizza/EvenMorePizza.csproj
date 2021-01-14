@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="del c:\temp\hashcode\code\*.cs&#xD;&#xA;del c:\temp\hashcode\*.zip&#xD;&#xA;&#xD;&#xA;copy $(ProjectDir)\*.cs c:\temp\hashcode\code&#xD;&#xA;powershell.exe -nologo -noprofile -command &quot;&amp; { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('c:\temp\hashcode\code','c:\temp\hashcode\code.zip'); }&quot;" />
+  </Target>
+
+</Project>
