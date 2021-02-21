@@ -8,10 +8,10 @@
 
 ### Phase 1 - Build a solution
 1. Sort pizzas by number of ingredients.
-2. Build deliveries, first teams of 4, after that 3, after that 2:
-   2.1 Select the pizza with the most ingredients.
-   2.2 Select the pizza that will give the best improvement in delivery (most new ingredients, with the least overlaping ingredients).
-   2.3 Repeat 2.2 until the delivery is ready.
+2. Build deliveries, first teams of 4, after that 3, after that 2:  
+   2.1 Select the pizza with the most ingredients.  
+   2.2 Select the pizza that will give the best improvement in delivery (most new ingredients, with the least overlapping ingredients).  
+   2.3 Repeat 2.2 until the delivery is ready.  
 
 ### Phase 2 - Optimization
 1. Try to swap 2 pizzas between any 2 deliveries - if it improves the score, make the swap.
