@@ -448,6 +448,8 @@ namespace EvenMorePizza
             int best1 = -1;
             int best2 = -1;
             int bestUnion = -1;
+            int bestIntersectSize = int.MaxValue;
+
             bool foundBest = false;
 
             for (int i = 0; i < pizzas.Count; i++)
@@ -466,11 +468,14 @@ namespace EvenMorePizza
                         break;
 
                     int unionSize = countBothSize - intersectSize;
-                    if (unionSize > bestUnion)
+                    if ((unionSize > bestUnion)||
+                        ((unionSize == bestUnion)&&(intersectSize < bestIntersectSize))
+                        )
                     {
                         best1 = i;
                         best2 = j;
                         bestUnion = unionSize;
+                        bestIntersectSize = intersectSize;
 
                         if (intersectSize == 0)
                             break;
