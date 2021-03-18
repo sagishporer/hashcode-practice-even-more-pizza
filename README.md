@@ -25,10 +25,12 @@
 2. Phase 2 takes about 50 minutes to run with the current restrictions (implemented for D & E which are huge). About 1% score improvement.
 
 ## Scores
-Score: 731,455,475 
 
-* A – Example - 74 points (74 before optimization)
-* B – A little bit of everything - 13,533 points (12922 before optimization) 
-* C – Many ingredients 712,692,751 points (706,624,572 before optimization)
-* D – Many pizzas - 7,911,296 points (7,863,102 before optimization)
-* E – Many teams - 10,837,821 points (10,789,627 before optimization)
+| Input | Phase 1 | Phase 1 + 2 |
+| --- | --- | --- |
+| A – Example | 74 | 74 |
+| B – A little bit of everything | 12,922 | 13,533 |
+| C – Many ingredients | 706,624,572 | 712,692,751 |
+| D – Many pizzas | 7,863,102 | 7,911,296 |
+| E – Many teams | 10,789,627 | 10,837,821 |
+| Total | 725,290,297 | 731,455,475 |
